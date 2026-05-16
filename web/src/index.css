@@ -15,12 +15,15 @@
   --color-genre: #f2eeea;
   --color-body-bg: #fcfaf7;
   --color-bar: #a16332;
+  --color-sidebar-hover: #fbf0ea;
 
   /*Font colors*/
   --color-logo-text: #1f2937;
   --color-book-title: #4b4744;
-  --color-book-author: #7a736d;
+  --color-book-author: #58534d;
   --color-genre-text: #7a736d;
+  --color-sidebar-text: #8f633e;
+  --color-sidebar-text-hover: #a6724b;
 }
 
 body {

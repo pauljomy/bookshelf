@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import Header from "./components/header";
-import CurrentlyReading from "@/pages/CurrentlyReading";
+import Sidebar from "./components/sidebar";
+import Navbar from "./components/navbar";
+import AllBooks from "./pages/AllBooks";
 
 const App = () => {
   const [bookList, setBookList] = useState([]);
@@ -18,9 +19,14 @@ const App = () => {
   console.log(bookList);
 
   return (
-    <main>
-      <Header />
-      <CurrentlyReading bookList={bookList} />
+    <main className="min-h-screen">
+      <div className="lg:flex min-h-screen">
+        <Sidebar bookList={bookList} />
+        <div className="flex flex-col flex-1">
+          <Navbar />
+          <AllBooks bookList={bookList} />
+        </div>
+      </div>
     </main>
   );
 };
