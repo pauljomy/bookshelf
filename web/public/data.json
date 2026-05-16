@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Project Hail Mary",
+        "author": "Andy Weir",
+        "genre": "Science Fiction",
+        "progress": 65,
+        "cover": "/assets/img/project_hail.png"
+    },
+    {
+        "id": 2,
+        "title": "Educated",
+        "author": "Tara Westover",
+        "genre": "Memoir",
+        "progress": 30,
+        "cover": "/assets/img/educated.png"
+    },
+    {
+        "id": 3,
+        "title": "The Name of the Wind",
+        "author": "Patrick Rothfuss",
+        "genre": "Fantasy",
+        "progress": 82,
+        "cover": "/assets/img/name_of_the_wind.png"
+    },
+    {
+        "id": 4,
+        "title": "Deep Work",
+        "author": "Cal Newport",
+        "genre": "Productivity",
+        "progress": 15,
+        "cover": "/assets/img/deep_work.png"
+    },
+    {
+        "id": 5,
+        "title": "Circe",
+        "author": "Madeline Miller",
+        "genre": "Mythology",
+        "progress": 47,
+        "cover": "/assets/img/circle.png"
+    }
+]

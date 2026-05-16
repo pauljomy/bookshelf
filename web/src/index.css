@@ -1,1 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 @import "tailwindcss";
+
+@theme {
+  --font-logo: "Lora", serif;
+  --font-book-title: "Playfair Display", serif;
+  --font-book-author: "Inter", sans-serif;
+
+  /*Background colors*/
+  --color-sidebar: #f5f1ed;
+  --color-genre: #f2eeea;
+  --color-body-bg: #fcfaf7;
+  --color-bar: #a16332;
+
+  /*Font colors*/
+  --color-logo-text: #1f2937;
+  --color-book-title: #4b4744;
+  --color-book-author: #7a736d;
+  --color-genre-text: #7a736d;
+}
+
+body {
+  background-color: #fcfaf7;
+  font-family: "Inter", sans-serif;
+}
