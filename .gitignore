@@ -1,0 +1,10 @@
+#frontned
+
+web/node_modules
+web/dist
+
+#backend
+
+*.env
+*.exe
+bin/
