@@ -14,7 +14,7 @@ func (app *application) routes() http.Handler {
 
 	mux.Route("/v1", func(r chi.Router) {
 		r.Get("/healthcheck", app.healthcheckHandler)
-
+		r.Get("/books", app.getBooksHandler)
 	})
 
 	return mux

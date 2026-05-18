@@ -9,6 +9,7 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/joho/godotenv"
+	"github.com/pauljomy/bookshelf/internal/data"
 	"github.com/pauljomy/bookshelf/internal/env"
 )
 
@@ -17,6 +18,7 @@ const version = "1.0.0"
 type application struct {
 	logger *slog.Logger
 	cfg    *config
+	models *data.Models
 }
 
 type config struct {
@@ -71,6 +73,7 @@ func main() {
 	app := &application{
 		logger: logger,
 		cfg:    &cfg,
+		models: data.NewModels(db),
 	}
 
 	logger.Info("Server starting", "at port", cfg.port)
